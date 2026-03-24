@@ -26,6 +26,13 @@ Things might still break at any point.
 - [JCSUnity](https://github.com/jcs090218/JCSUnity)
 - [Mx](https://github.com/jcs090218/Unity.Mx)
 
+## 🔨 Development
+
+### 🔍 Prepare wz files
+
+Make sure you have placed all `.m2d` files to `Data` folder from the
+root of the project directory.
+
 ## ⚜️ License
 
 This program is free software; you can redistribute it and/or modify
