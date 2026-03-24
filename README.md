@@ -2,14 +2,14 @@
   <img alt="MapleStory 2 Unity Logo" src="./etc/logo.png" width="40%" />
   <p align="center">
     <a href="https://www.gnu.org/licenses/gpl-3.0"><img alt="License" src="https://img.shields.io/badge/License-GPL%20v3-green.svg"/></a>
-    <a href="https://trello.com/b/yWASibmn/maplestory-unity"><img alt="Trello" src="https://img.shields.io/badge/Trello-view%20progress-026AA7.svg?logo=trello"></a>
+    <a href="https://trello.com/b/yWASibmn/maplestory2-unity"><img alt="Trello" src="https://img.shields.io/badge/Trello-view%20progress-026AA7.svg?logo=trello"></a>
     <a href="https://unity3d.com/get-unity/download/archive"><img alt="Unity Engine" src="https://img.shields.io/badge/unity-6000.4.0f1-black.svg?style=flat&logo=unity"/></a>
     <a href="https://docs.unity3d.com/2018.3/Documentation/Manual/ScriptingRuntimeUpgrade.html"><img alt=".NET 4.x Scripting Runtime" src="https://img.shields.io/badge/.NET-4.x-blueviolet.svg?style=flat&cacheSeconds=2592000"/></a>
-    <a href="https://github.com/MapleStoryUnity/MapleStoryUnity/releases/latest"><img alt="Release" src="https://img.shields.io/github/release/MapleStoryUnity/MapleStoryUnity.svg?logo=github"/></a>
+    <a href="https://github.com/MapleStory2Unity/MapleStory2Unity/releases/latest"><img alt="Release" src="https://img.shields.io/github/release/MapleStory2Unity/MapleStory2Unity.svg?logo=github"/></a>
   </p>
   <p align="center">
-    <a href="https://github.com/MapleStoryUnity/MapleStoryUnity/actions/workflows/license.yml"><img alt="License" src="https://github.com/MapleStoryUnity/MapleStoryUnity/actions/workflows/license.yml/badge.svg"/></a>
-    <a href="https://github.com/MapleStoryUnity/MapleStoryUnity/actions/workflows/build.yml"><img alt="Build" src="https://github.com/MapleStoryUnity/MapleStoryUnity/actions/workflows/build.yml/badge.svg"/></a>
+    <a href="https://github.com/MapleStory2Unity/MapleStory2Unity/actions/workflows/license.yml"><img alt="License" src="https://github.com/MapleStory2Unity/MapleStory2Unity/actions/workflows/license.yml/badge.svg"/></a>
+    <a href="https://github.com/MapleStory2Unity/MapleStory2Unity/actions/workflows/build.yml"><img alt="Build" src="https://github.com/MapleStory2Unity/MapleStory2Unity/actions/workflows/build.yml/badge.svg"/></a>
   </p>
 </p>
 
