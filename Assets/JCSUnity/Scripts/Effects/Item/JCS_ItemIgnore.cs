@@ -1,0 +1,50 @@
+﻿/**
+ * $File: JCS_ItemIgnore.cs $
+ * $Date: $
+ * $Revision: $
+ * $Creator: Jen-Chieh Shen $
+ * $Notice: See LICENSE.txt for modification and distribution information 
+ *                   Copyright (c) 2016 by Shen, Jen-Chieh $
+ */
+using UnityEngine;
+using MyBox;
+
+namespace JCSUnity
+{
+    /// <summary>
+    /// When every item touch this will ignore the collision.
+    /// </summary>
+    public class JCS_ItemIgnore : MonoBehaviour
+    {
+        /* Variables */
+
+        [Separator("🌱 Initialize Variables (JCS_ItemIgnore)")]
+
+        [Tooltip("Add this effect to all the children from this game object.")]
+        [SerializeField]
+        private bool mEffectToAllChild = true;
+
+        /* Setter & Getter */
+
+        public bool effectToAllChild { get { return mEffectToAllChild; } set { mEffectToAllChild = value; } }
+
+        /* Functions */
+
+        private void Start()
+        {
+            AddEffectToAllChild();
+        }
+
+        private void AddEffectToAllChild()
+        {
+            if (!mEffectToAllChild)
+                return;
+
+            // add to all the child as the same effect
+            for (int index = 0; index < transform.childCount; ++index)
+            {
+                transform.GetChild(index).gameObject.AddComponent<JCS_ItemIgnore>();
+            }
+        }
+    }
+}

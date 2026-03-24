@@ -1,0 +1,42 @@
+﻿/**
+ * $File: JCS_DestroyObjectWithScreen.cs $
+ * $Date: $
+ * $Revision: $
+ * $Creator: Jen-Chieh Shen $
+ * $Notice: See LICENSE.txt for modification and distribution information 
+ *                   Copyright (c) 2016 by Shen, Jen-Chieh $
+ */
+using UnityEngine;
+using MyBox;
+
+namespace JCSUnity
+{
+    /// <summary>
+    /// Destroy the game object when the object is no longer render 
+    /// on the screen.
+    /// </summary>
+    public class JCS_DestroyObjectWithScreen : MonoBehaviour
+    {
+        /* Variables */
+
+        [Separator("⚡️ Runtime Variables (JCS_DestroyObjectWithScreen)")]
+
+        [Tooltip("Trigger event flag.")]
+        [SerializeField]
+        private bool mDestroyWhenOutOfScreen = true;
+
+        /* Setter & Getter */
+
+        public bool destroyWhenOutOfScreen { get { return mDestroyWhenOutOfScreen; } set { mDestroyWhenOutOfScreen = value; } }
+
+        /* Functions */
+
+        private void OnBecameInvisible()
+        {
+            if (!mDestroyWhenOutOfScreen)
+                return;
+
+            Destroy(gameObject);
+        }
+    }
+}
