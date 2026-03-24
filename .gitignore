@@ -49,5 +49,5 @@ sysinfo.txt
 # ignore PSD
 *.psd
 
-# Ignore wz
-*.wz
+# Ignore m2d
+*.m2d
